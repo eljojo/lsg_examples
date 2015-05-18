@@ -53,26 +53,26 @@ input:-moz-placeholder {
   color: $black;
   padding: 3px;
   width: 100%;
-  @include box-shadow(rgba(white, 0.5) 0 1px 0, lighten($gray, 15%) 0 1px 3px inset);
-  @include display-box;
-  @include box-sizing(border-box);
-  @include clearfix;
+  // @include box-shadow(rgba(white, 0.5) 0 1px 0, lighten($gray, 15%) 0 1px 3px inset);
+  // @include display-box;
+  // @include box-sizing(border-box);
+  // @include clearfix;
 
   .form--field.is-required & {
     border-color: $blue;
-    @include box-shadow(rgba(white, 0.5) 0 1px 0, rgba($blue, 0.6) 0 0 2px inset, lighten($gray, 15%) 0 1px 3px inset);
+    // @include box-shadow(rgba(white, 0.5) 0 1px 0, rgba($blue, 0.6) 0 0 2px inset, lighten($gray, 15%) 0 1px 3px inset);
   }
 
   .no-boxshadow .form--field.is-required & {
     border-width: 2px;
     padding: 2px;
-    @include box-shadow(none);
+    // @include box-shadow(none);
   }
 
   .form--field.is-disabled & {
     background: rgba($white, 0.3);
     color: $gray;
-    @include text-shadow(rgba($white, 0.5) 0 1px 0);
+    // @include text-shadow(rgba($white, 0.5) 0 1px 0);
   }
 }
 
@@ -88,6 +88,6 @@ input:-moz-placeholder {
   margin: 0;
   outline: 0;
   text-align: inherit;
-  @include box-flex(1);
+  // @include box-flex(1);
 }
 
